@@ -74,7 +74,7 @@
     el.innerHTML = visible.map(p => `
       <div class="post-card">
         <a href="blog-post.html?slug=${encodeURIComponent(p.slug || p.id)}">
-          <img src="${p.coverImage || 'media/gallery-1.jpg'}" alt="${escapeHtml(p.title)}" loading="lazy">
+          <img src="${p.coverImage || 'media/gallery-1.svg'}" alt="${escapeHtml(p.title)}" loading="lazy">
           <div class="pc-body">
             <span class="pc-date">${formatDate(p.date)}</span>
             <h3>${escapeHtml(p.title)}</h3>

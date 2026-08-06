@@ -49,7 +49,7 @@
 </nav>
 
 <header class="hero">
-  <video class="hero-media" data-src="media/hero-kalpa.mp4" poster="media/hero-kalpa-poster.jpg"
+  <video class="hero-media" poster="media/hero-kalpa-poster.svg"
          muted loop playsinline preload="none"></video>
   <div class="hero-content">
     <div class="wrap">
@@ -67,7 +67,7 @@
 <section id="about">
   <div class="wrap grid-2">
     <div class="reveal">
-      <img src="media/orchard.jpg" alt="Apple orchard in Kalpa with Kinner Kailash in the background" loading="lazy" style="border-radius:2px">
+      <img src="media/orchard.svg" alt="Apple orchard in Kalpa with Kinner Kailash in the background" loading="lazy" style="border-radius:2px">
     </div>
     <div class="reveal">
       <span class="eyebrow">About the stay</span>
@@ -120,10 +120,10 @@
       <h2>Gallery</h2>
     </div>
     <div class="gallery">
-      <div class="gallery-item reveal"><img src="media/gallery-1.jpg" alt="Room interior" loading="lazy"></div>
-      <div class="gallery-item reveal"><img src="media/gallery-2.jpg" alt="Kinner Kailash view from terrace" loading="lazy"></div>
-      <div class="gallery-item reveal"><img src="media/gallery-3.jpg" alt="Home-cooked Kinnauri meal" loading="lazy"></div>
-      <div class="gallery-item reveal"><img src="media/gallery-4.jpg" alt="Old Kalpa village lane" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="media/gallery-1.svg" alt="Room interior" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="media/gallery-2.svg" alt="Kinner Kailash view from terrace" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="media/gallery-3.svg" alt="Home-cooked Kinnauri meal" loading="lazy"></div>
+      <div class="gallery-item reveal"><img src="media/gallery-4.svg" alt="Old Kalpa village lane" loading="lazy"></div>
     </div>
   </div>
 </section>
@@ -184,7 +184,7 @@
       <a href="https://wa.me/917018138847" class="btn btn-dark">Message on WhatsApp</a>
     </div>
     <div class="reveal">
-      <img src="media/terrace.jpg" alt="Terrace seating with mountain view" loading="lazy" style="border-radius:2px">
+      <img src="media/terrace.svg" alt="Terrace seating with mountain view" loading="lazy" style="border-radius:2px">
     </div>
   </div>
 </section>
@@ -256,7 +256,7 @@
     el.innerHTML = visible.map(p => `
       <div class="post-card">
         <a href="blog-post.html?slug=${encodeURIComponent(p.slug || p.id)}">
-          <img src="${p.coverImage || 'media/gallery-1.jpg'}" alt="${escapeHtml(p.title)}" loading="lazy">
+          <img src="${p.coverImage || 'media/gallery-1.svg'}" alt="${escapeHtml(p.title)}" loading="lazy">
           <div class="pc-body">
             <span class="pc-date">${formatDate(p.date)}</span>
             <h3>${escapeHtml(p.title)}</h3>
